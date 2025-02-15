@@ -11,7 +11,7 @@ export class CdkStack extends cdk.Stack {
 
   
     const BUCKET_NAME = 'course-rsschool-shop-website';
-    const DISTRIBUTION_COMMENT = 'CloudFront Distribution for Animal Shop';
+    const DISTRIBUTION_COMMENT = 'Distribution for Website Shop';
 
 
     const websiteBucket = new s3.Bucket(this, 'WebsiteBucket', {
